@@ -2,17 +2,14 @@ image: node:slim
 
 stages:
   - build
-  - deploy
 
 build:
   stage: build
   script:
   - npm install -g static-marks
-
-deploy:
-  stage: deploy
-  script:
   - /usr/local/bin/static-marks files/* -o index.html
+  artifacts:
+    paths:
+    - index.html
   only:
   - master
-
