@@ -7,7 +7,7 @@ before_script:
 pages:
   stage: deploy
   script:
-  - /usr/local/bin/static-marks files/* -o index.html
+  - /usr/local/bin/static-marks -t "Becarios DevOps" files/* -o index.html
   - mv index.html public/index.html
   artifacts:
     paths:
