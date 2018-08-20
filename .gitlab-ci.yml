@@ -1,12 +1,11 @@
 image: node:slim
 
-stages:
-  - build
+before_script:
+  - npm install -g static-marks
 
 build:
   stage: build
   script:
-  - npm install -g static-marks
   - /usr/local/bin/static-marks files/* -o index.html
   artifacts:
     paths:
