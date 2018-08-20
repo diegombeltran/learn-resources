@@ -1,0 +1,21 @@
+image: node:slim
+
+stages:
+  - build
+  - deploy
+
+variables:
+  GIT_SUBMODULE_STRATEGY: recursive
+
+build:
+  stage: build
+  script:
+  - npm install -g static-marks
+
+deploy:
+  stage: deploy
+  script:
+  - static-marks files/* -o index.html
+  only:
+  - master
+
