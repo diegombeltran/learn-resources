@@ -1,5 +1,5 @@
-Awesome Lists:
-  - Platforms:
+Awesome...:
+  - Plataformas:
     - Node.js:
       - https://github.com/sindresorhus/awesome-nodejs
       - JavaScript runtime built on Chrome's V8 JavaScript engine.
@@ -62,7 +62,7 @@ Awesome Lists:
       - Simple and distraction-free desktop environment for Linux.
 
 
-  - Programming Languages:
+  - Lenguajes de Programación:
     - JavaScript:
       - https://github.com/sorrycc/awesome-javascript
       - Promises: https://github.com/wbinnssmith/awesome-promises
@@ -145,7 +145,7 @@ Awesome Lists:
       - General purpose pure functional programming language with dependent types influenced by Haskell and ML.
 
 
-  - Front-End Development:
+  - Front-End:
     - ES6 Tools: https://github.com/addyosmani/es6-tools
     - Web Performance Optimization: https://github.com/davidsonfellipe/awesome-wpo
     - Web Tools: https://github.com/lvwzhen/tools
@@ -265,7 +265,7 @@ Awesome Lists:
       - Tiny JavaScript library for building web apps.
 
 
-  - Back-End Development:
+  - Back-End:
     - Django: https://github.com/rosarior/awesome-django
     - Flask: https://github.com/humiaozuzu/awesome-flask
     - Docker: https://github.com/veggiemonk/awesome-docker
@@ -306,7 +306,7 @@ Awesome Lists:
       - Tool for building, changing, and versioning infrastructure.
 
 
-  - Computer Science:
+  - Ciencias de la Computación:
     - University Courses: https://github.com/prakhar1989/awesome-courses
     - Data Science:
       - https://github.com/bulutyazilim/awesome-datascience
@@ -351,7 +351,7 @@ Awesome Lists:
       - Unified engine for large-scale data processing.
 
 
-  - Theory:
+  - Teoría:
     - Papers We Love: https://github.com/papers-we-love/papers-we-love
     - Talks: https://github.com/JanVanRyswyck/awesome-talks
     - Algorithms: https://github.com/tayllan/awesome-algorithms
@@ -365,7 +365,7 @@ Awesome Lists:
       - Traversing nested data structures.
 
 
-  - Books:
+  - Libros:
     - Free Programming Books: https://github.com/EbookFoundation/free-programming-books
     - Free Software Testing Books: https://github.com/ligurio/awesome-software-quality
     - Go Books: https://github.com/dariubs/GoBooks
@@ -375,7 +375,7 @@ Awesome Lists:
     - Elixir Books: https://github.com/sger/ElixirBooks
 
 
-  - Editors:
+  - Editores:
     - Sublime Text: https://github.com/dreikanter/sublime-bookmarks
     - Vim: https://github.com/mhinz/vim-galore
     - Emacs: https://github.com/emacs-tw/awesome-emacs
@@ -387,7 +387,7 @@ Awesome Lists:
       - Cross-platform open-source text editor.
 
 
-  - Gaming:
+  - Videojuegos:
     - Game Development: https://github.com/ellisonleao/magictools
     - Game Talks: https://github.com/hzoo/awesome-gametalks
     - Godot:
@@ -413,7 +413,7 @@ Awesome Lists:
       - Game engine.
 
 
-  - Development Environment:
+  - Entornos de Desarrollo:
     - Quick Look Plugins:
       - https://github.com/sindresorhus/quick-look-plugins
       - For macOS.
@@ -449,7 +449,7 @@ Awesome Lists:
     - Terminals Are Sexy: https://github.com/k4m4/terminals-are-sexy
 
 
-  - Entertainment:
+  - Entretenimiento:
     - Science Fiction:
       - https://github.com/sindresorhus/awesome-scifi
       - Scifi.
@@ -459,7 +459,7 @@ Awesome Lists:
     - IT Quotes: https://github.com/victorlaerte/awesome-it-quotes
 
 
-  - Databases:
+  - Bases de Datos:
     - Database: https://github.com/numetriclabz/awesome-db
     - MySQL: https://github.com/shlomi-noach/awesome-mysql/blob/gh-pages/index.md
     - SQLAlchemy: https://github.com/dahlia/awesome-sqlalchemy
@@ -502,7 +502,7 @@ Awesome Lists:
       - Pixel-level digital art.
 
 
-  - Learn:
+  - Aprendizaje:
     - CLI Workshoppers:
       - https://github.com/therebelrobot/awesome-workshopper
       - Interactive tutorials.
@@ -518,7 +518,7 @@ Awesome Lists:
     - JavaScript Learning: https://github.com/micromata/awesome-javascript-learning
 
 
-  - Security:
+  - Seguridad:
     - Application Security: https://github.com/paragonie/awesome-appsec
     - Security: https://github.com/sbilly/awesome-security
     - CTF:
@@ -540,7 +540,7 @@ Awesome Lists:
       - The art of unlocking a lock by manipulating its components without the key.
 
 
-  - Content Management Systems:
+  - Content Management Systems (CMS):
     - Umbraco: https://github.com/leekelleher/awesome-umbraco
     - Refinery CMS:
       - https://github.com/refinerycms-contrib/awesome-refinerycms
@@ -571,7 +571,7 @@ Awesome Lists:
       - Checklist for building your own electric guitar.
 
 
-  - Business:
+  - Negocio:
     - Open Companies: https://github.com/opencompany/awesome-open-company
     - Places to Post Your Startup: https://github.com/mmccaff/PlacesToPostYourStartup
     - OKR Methodology:
@@ -585,7 +585,7 @@ Awesome Lists:
       - Independent developer businesses.
 
 
-  - Work:
+  - Trabajo:
     - Slack:
       - https://github.com/matiassingers/awesome-slack
       - Team collaboration.
@@ -596,13 +596,13 @@ Awesome Lists:
     - Programming Interviews: https://github.com/MaximAbramchuck/awesome-interview-questions
 
 
-  - Networking:
+  - Redes:
     - Software-Defined Networking: https://github.com/sdnds-tw/awesome-sdn
     - Network Analysis: https://github.com/briatte/awesome-network-analysis
     - PCAPTools: https://github.com/caesar0301/awesome-pcaptools
 
 
-  - Decentralized Systems:
+  - Sistemas Descentralizados:
 
     - Bitcoin:
       - https://github.com/igorbarinov/awesome-bitcoin
@@ -618,7 +618,7 @@ Awesome Lists:
       - Open source decentralized microblogging network.
 
 
-  - Miscellaneous:
+  - Varios:
     - JSON:
       - https://github.com/burningtree/awesome-json
       - Text based data interchange format.

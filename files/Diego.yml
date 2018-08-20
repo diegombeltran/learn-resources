@@ -1,0 +1,13 @@
+Diego:
+  - Terraform:
+    - Documentación: https://www.terraform.io/docs/index.html
+    - The Terraform Book: https://terraformbook.com/
+    - asdf:
+      - https://github.com/asdf-vm/asdf
+      - Permite tener varias versiones de Terraform según repositorio
+  - Cosillas:
+    - 6 errores comunes en Git y cómo solucionarlos: https://victorhckinthefreeworld.com/2018/08/09/6-errores-comunes-al-utilizar-git-y-como-solucionarlos/
+    - Cómo utilizar static-marks: https://github.com/darekkay/static-marks
+    - 8 books for sysadmins:
+      - https://opensource.com/article/18/7/book-list-sysadmins
+      - Recommendations and reviews from our writer community of their favorite books for admins.
