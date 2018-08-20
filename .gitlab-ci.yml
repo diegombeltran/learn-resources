@@ -7,6 +7,7 @@ pages:
   stage: deploy
   script:
   - /usr/local/bin/static-marks files/* -o index.html
+  - mv index.html public/
   artifacts:
     paths:
     - public
