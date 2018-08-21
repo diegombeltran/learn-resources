@@ -6,6 +6,7 @@ Diego:
       - https://github.com/asdf-vm/asdf
       - Permite tener varias versiones de Terraform según repositorio
   - Cosillas:
+    - Cómo instalar paquetes de Node.js sin root/sudo: https://docs.npmjs.com/getting-started/fixing-npm-permissions
     - 6 errores comunes en Git y cómo solucionarlos: https://victorhckinthefreeworld.com/2018/08/09/6-errores-comunes-al-utilizar-git-y-como-solucionarlos/
     - Cómo utilizar static-marks: https://github.com/darekkay/static-marks
     - 8 books for sysadmins:
