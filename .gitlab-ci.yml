@@ -7,7 +7,7 @@ before_script:
 pages:
   stage: deploy
   script:
-  - /usr/local/bin/static-marks -t "Legacy GNF DevOps" files/* -o index.html
+  - static-marks build -t "Legacy GNF DevOps" files/* -o index.html
   - mv index.html public/index.html
   artifacts:
     paths:
