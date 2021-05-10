@@ -1,0 +1,22 @@
+name: StaticMarks
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: node:slim
+    steps:
+      - name: Install Static-Marks
+        run: |
+          npm install -g static-marks
+          mkdir -p public
+
+      - name: Deploy
+        run: |
+          static-marks build -t "Learn Resources" files/* -o index.html
+          mv index.html public/index.html
