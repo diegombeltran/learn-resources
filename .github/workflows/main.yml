@@ -15,7 +15,7 @@ jobs:
 
       - name: Install Static-Marks
         run: |
-          npm install -g static-marks
+          npm install --save static-marks
           mkdir -p public
           
       - name: Build
