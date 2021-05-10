@@ -12,7 +12,9 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v2.3.1
+        
   build:
+    needs: checkout
     runs-on: ubuntu-latest
     container: node:slim
     steps:
@@ -20,12 +22,13 @@ jobs:
         run: |
           npm install -g static-marks
           mkdir -p public
-
       - name: Build
         run: |
           static-marks build -t "Learn Resources" files/* -o index.html
           mv index.html public/index.html
+          
   deploy:
+    needs: [ checkout, build ]
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to GitHub Pages
