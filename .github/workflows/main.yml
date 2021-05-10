@@ -24,8 +24,9 @@ jobs:
           static-marks build -t "Learn Resources" files/* -o index.html
           mv index.html public/index.html
       
-      - name: Publish generated content to GitHub Pages
-        uses: tsunematsu21/actions-publish-gh-pages@v1.0.1
+      - name: Deploy to GitHub Pages
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v2
         with:
-          dir: public
-          branch: gh-pages
+          target_branch: gh-pages
+          build_dir: public
